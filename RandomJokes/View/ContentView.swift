@@ -21,7 +21,6 @@ struct ContentView: View {
                             viewModel.fetchJokes()
                         } label: {
                             Image(systemName: "arrow.clockwise")
-                                .foregroundColor(.black)
                         }
                     }
                 }
